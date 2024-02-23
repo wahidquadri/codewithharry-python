@@ -62,10 +62,11 @@ print(mydict.keys())       #  it prints all the keys names in the dict
 print(mydict.get["name"])  #  it prints the selected key values in the dict
 print(mydict.values())     #  it prints all the values in the given dict
 print(mydict.items())      #  it prints all the (keys & values) in a tuples way of the given dict 
-print(mydict.update({"city" : "Bangalore"}))  # it will add the new key and values in the above dict
 print(mydict.update({"Age" : 20})) # this will update the age value i mean replace the new value but cant add seperatly age again because keys are unique in dict and no dubplicate keys are allowed 
-
-'''
+print(mydict.update({"city" : "Bangalore"}))  # it will add the new key and values in the above dict
+we can add the key and value in a other way also see below code its another method to add
+mydict["gender"] = "male"
+print(mydict)'''
 
 
 
