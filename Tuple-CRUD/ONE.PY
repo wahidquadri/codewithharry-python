@@ -4,13 +4,12 @@ l[2]="shahid"              this is an replace the new value on the old value in 
 print(l)'''
 
 #  >>>>  Tuple CRUD operations  <<<<
-t = (10,20,"vahid",True,"khan",[10,20,20,10])
-x = list(t)
-x.append("orange")
-print(type(x))
+t = (10,20,20,20,"vahid",True,"khan",[15,25,35,45])
+print(t)
+print(t.index("vahid")) #it shows the indexing value of the given "vahid" in the tuple
+print(t.count(20)) # it counts the certain value how many time in the above tuple
 
 
-print(x)
 
 
 
