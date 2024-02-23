@@ -5,7 +5,13 @@ print(l)'''
 
 #  >>>>  Tuple CRUD operations  <<<<
 t = (10,20,"vahid",True,"khan",[10,20,20,10])
-print(t)
+x = list(t)
+x.append("orange")
+print(type(x))
+
+
+print(x)
+
 
 
 #  important points in  Tuple()
